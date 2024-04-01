@@ -462,6 +462,88 @@
   }
 
 
+  /* New Code */
+
+  .head-aa{
+    width: 80%;
+    /* border: 2px solid black; */
+    height: 200px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+  }
+
+  .head-aa-f{
+    width: 80%;
+    /* border: 2px solid black; */
+    height: 200px;
+    display: grid;
+    place-items: center;
+    font-size: .8rem;
+  }
+
+  .arr-head{
+    width: 80%;
+    /* border: 2px solid black; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .arr-cl{
+    font-size: 7rem;
+    font-weight: 900;
+    padding: 0px 0px;
+  }
+
+  .arr-qu{
+    font-size: 1.5rem;
+    padding-top: .1%;
+  }
+
+  .arr-qu-n{
+    font-size: .7rem;
+    padding-top: 2%;
+  }
+
+  @media screen and (max-width:600px) {
+    .head-aa{
+        width: 80%;
+        font-size: 1.2rem;
+      }
+
+      .arr-head{
+        width: 80%;
+        /* border: 2px solid black; */
+        height: 200px;
+      }
+
+      .arr-cl{
+        font-size: 4rem;
+      }
+    
+      .arr-qu{
+        font-size: 1rem;
+      }
+
+      .head-aa-f{
+        width: 80%;
+        /* border: 2px solid black; */
+        height: 200px;
+    
+        font-size: .8rem;
+      }
+
+      .arr-qu-n{
+        font-size: .5rem;
+        padding-top: 2%;
+      }
+  }
+
+
   /* Information */
 
 
@@ -3898,7 +3980,7 @@
     cursor: pointer;
     border-radius: 15px;
     /* border: 2px solid rgb(209, 209, 209); */
-    filter: drop-shadow(3px 3px 5px blue);
+    /* filter: drop-shadow(3px 3px 5px blue); */
 }
 
 /* .study-cont1-s1:hover{
@@ -3925,7 +4007,7 @@
 }
 
 .st-text{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
     color: #000000;
 }
